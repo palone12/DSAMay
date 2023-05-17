@@ -8,9 +8,9 @@ public class VehicleUse {
 //        v1.print();
 
         Car c1 = new Car();
-        c1.Bhp=1000;
-        c1.type= "Race Cars ";
-        c1.wheels=4;
-        c1.print();
+//        c1.Bhp=1000;
+//        c1.type= "Race Cars ";
+//        c1.wheels=4;
+//        c1.print();
     }
 }
