@@ -5,7 +5,8 @@ public class Car extends  Vehicle {
     int Bhp;
 
     public void print (){
-        System.out.println("Car Details "+ type + Bhp);
+        super.print();
+//        System.out.println("Car Details "+ type + Bhp);
     }
 
 }
