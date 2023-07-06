@@ -14,7 +14,7 @@ public class SelectionSort {
     public static  int [] selectionSortAlgo (int [] arr) {
         for(int i =0 ;i< arr.length-1; i++){
             int min_ind = i;
-            for(int j =i+1 ;j< arr.length; j++){
+            for(int j =i+1;j< arr.length; j++){
                 if(arr[j]<arr[min_ind]){
                     min_ind = j;
                 }

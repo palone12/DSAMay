@@ -3,7 +3,7 @@ package Algorithms.SortingAlgos;
 public class Bublesort {
     public static void main(String[] args) {
         int  [] arr = {4,5,3,2,8,1,6,7};
-        printSortedArray(bubbleSortAlg0(arr));
+        printSortedArray(bubbleSortAlgo(arr));
 
     }
     public static void printSortedArray (int [] arr){
@@ -11,7 +11,7 @@ public class Bublesort {
             System.out.print(arr[i]+" ");
         }
     }
-    public static int [] bubbleSortAlg0 (int [] arr) {
+    public static int [] bubbleSortAlgo (int [] arr) {
         int n =arr.length;
         for(int i =0 ;i< n-1; i++){
             for(int j=0 ;j< n-1 -i ;j++){
